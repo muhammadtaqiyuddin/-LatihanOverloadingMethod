@@ -14,7 +14,7 @@ namespace LatihanOverloadingMethod
         }
         public int FindMinimum(int number1, int number2, float number3)
         {
-            return Math.Min(number1,number2);
+            return Math.Min(number1,Math.Min(number2,(int)number3));
         }
         public int FindMaximum(int number1, int number2)
         {
